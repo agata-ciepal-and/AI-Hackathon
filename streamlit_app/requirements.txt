@@ -1,0 +1,10 @@
+langchain==0.2.8
+langchain-community==0.2.7
+tqdm==4.65.0
+pandas==1.5.3
+pandasai==2.2.12
+missingno==0.5.2
+ydata-profiling==4.9.0
+jupyter==1.0.0
+matplotlib==3.9.1
+# https://github.com/ydataai/ydata-profiling/issues/1575
