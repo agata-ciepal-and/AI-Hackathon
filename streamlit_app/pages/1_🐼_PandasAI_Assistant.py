@@ -47,7 +47,6 @@ if st.session_state.df is not None:
                 response = agent.chat(question)
                 
                 if os.path.isfile(st.session_state.temporary_file_path):
-                    dir_path = os.path.dirname(os.path.realpath(__file__))
                     im = plt.imread(st.session_state.temporary_file_path)
                     st.image(im)
                     os.remove(st.session_state.temporary_file_path )
